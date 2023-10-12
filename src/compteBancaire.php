@@ -5,7 +5,7 @@
 class compteBancaire{
 private $solde;
 private $name;
-public function __construct($name = 'Dupont', $solde = 1000){
+public function __construct($name, $solde){
     $this->name = $name;
     $this->solde = $solde;
 }
